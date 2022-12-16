@@ -1,0 +1,62 @@
+.beni{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+.beni-head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.beni-first{
+    font-size: 18px;
+    font-weight: bold;
+}
+.beni-second{
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.beni-second .beni-color{
+    background:linear-gradient(#4ce1d2,#1cb4c2);
+    padding:5px 50px 5px 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+.beny-btm{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.beny-btm-color{
+    width: 75%;
+    height: 350px;
+    background: linear-gradient(rgb(166, 158, 255),rgb(46, 87, 165));
+    border-radius: 20px;
+    position: relative;
+
+}
+.btm-text{
+    position: absolute;
+   top: 50px;
+   left: 400px;
+   color: #fff;
+}
+.beny-btm img{
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}
+.beny-btm ul{
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.beny-btm ul li{
+    margin-bottom: 10px;
+}

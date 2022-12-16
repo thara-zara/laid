@@ -1,0 +1,62 @@
+.join{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join-left{
+    width: 45%;
+}
+.join-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.join-right .one{
+    font-size: 18px;
+    font-weight: bold;
+}
+.join-right .two{
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.join-right .two p{
+    font-size: 18px;
+    font-weight: normal;
+    color: gray;
+}
+.join-right .j-btn{
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+}
+.j-btn-one{
+    background: linear-gradient(rgb(255, 79, 79),rgb(255, 169, 169));
+    font-size: 18px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.j-btn-two{
+    background: linear-gradient(rgb(79, 135, 255),rgb(169, 222, 255));
+    font-size: 18px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.join-color{
+    background:linear-gradient(#6e1aa3,#a06aff);
+    padding:5px 50px 5px 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+}

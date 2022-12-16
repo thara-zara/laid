@@ -1,0 +1,143 @@
+.auction{
+    height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.auction-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auction-head-left{
+    width: 50%;
+}
+.auction-head-left .auc{
+    font-size: 18px;
+    font-weight: bold;
+}
+.auction-on{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+.auction-color{
+    background:linear-gradient(#a3a11a,#ff9d4d);
+    padding:5px 50px 5px 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+
+
+.auction-head-right{
+    width: 50%;
+}
+.auction-head-right p{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: gray;
+    text-align: justify;
+}
+
+.auction-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.auc-card-body{
+    width: calc(100/3);
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+.auc-card-body .color{
+    position: relative;
+    height: 350px;
+    width: 100%;
+   
+}
+.colors-one{
+    background:linear-gradient(#f4c749,#ffe28b);
+}
+.colors-two{
+    background:linear-gradient(#924adf,#ba98ff);
+}
+.colors-three{
+    background:linear-gradient(#4adfb5,#bffef0);
+}
+.auc-card-body .color img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.card-mid{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.card-mid h4{
+    font-size: 18px; 
+}
+.card-mid .bid{
+    display: flex;
+    justify-content: space-between;
+}
+.card-mid .price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px; 
+    font-weight: bold;
+}
+.card-mid .price h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-mid .bid h5{
+    font-size: 16px; 
+    color: gray;
+    font-weight: lighter;
+}
+.auction-btn .bid-btn{
+    width: 100%;
+}
+ .bid-btn button{
+    width: 100%;
+    height:40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+.bid-btn button:hover{
+    background: #a7bdff;
+    color: #fff;
+}
+.auction-btn button{ 
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-top: 50px;
+    background: linear-gradient(rgb(255, 79, 108),rgb(255, 169, 169));
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}

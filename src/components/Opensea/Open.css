@@ -1,0 +1,23 @@
+.open{
+    height: 15vh;
+    width: 100%;
+}
+.openbar{
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(rgb(136, 184, 255),rgb(79, 133, 232));
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.openbar img{
+cursor: pointer;
+}
+.openbar .img2{
+    width: 75px;
+}
+.openbar .img1{
+    width: 175px;
+}
